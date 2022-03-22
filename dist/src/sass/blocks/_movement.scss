@@ -1,0 +1,21 @@
+.movement{
+    height: 870px;
+    padding-top: 165px;
+    background: #F7F0EA;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .title{
+        width: 500px;
+        text-align: center;
+        color: #49464F;
+    }
+    .descr{
+        margin-top: 45px;
+        width: 510px;
+        font-size: 20px;
+        color: #49464F;
+    }
+}

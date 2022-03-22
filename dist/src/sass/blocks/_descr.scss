@@ -1,0 +1,15 @@
+.descr{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #8172A2;
+    &_fz16{
+        font-size: 16px;
+    }
+    &_fz20{
+        font-size: 20px; 
+    }
+}

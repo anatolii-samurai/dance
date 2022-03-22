@@ -1,0 +1,23 @@
+.advantage{
+    height: 667px;
+    background-color:#FBF7F3;
+    padding-top: 30px;
+    &__wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    &__picture{
+        max-width: 320px;
+    }
+    .descr{
+        margin-top: 15px;
+        width: 320px;
+        text-align: left;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 23px;
+        color: #49464F;
+    }
+}

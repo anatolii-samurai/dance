@@ -1,0 +1,61 @@
+.ride{
+    background-color:#FBF7F3;
+    &__wrapper{
+        display: grid;
+        grid-template-columns: 440px 440px 258px;
+        grid-template-rows: 300px 700px;
+    }
+    &__left{
+        grid-row: 2 / 3;
+    }
+    .descr{
+        width: 330px;
+    }
+    &__title{
+        color: #49464F;
+    }
+    &__picture{
+        grid-column: 2 / 3;
+    }
+    &__list-title{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        color: #49464F;
+        margin-left: -15px;
+    }
+    &__list{
+        grid-column: 3 / 4;
+        grid-row: 2 / 3;
+        padding-top: 50px;
+    }
+    &__list-items{
+        padding-top: 26px;
+        list-style-type: none;
+    }
+    &__list-item{
+        position: relative;
+        padding-bottom: 36px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        color: #8172A2;
+        z-index: 1;
+    }
+    &__list-item:before{
+        content: '';
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background: #7140EB;
+        z-index: -1;
+        left: -50px;
+        top: -8px;
+
+    }
+}

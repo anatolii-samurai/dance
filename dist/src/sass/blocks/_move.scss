@@ -1,0 +1,17 @@
+.move{
+    background:no-repeat center / cover url("/dist/src/img/bg_move.jpg");
+    padding: 90px 30px 0 0px;
+    min-height: 800px;
+    &__wrapper{
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;    
+    }
+    &__subtitle{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 29px;
+        color: #FBF7F3;
+    }
+}

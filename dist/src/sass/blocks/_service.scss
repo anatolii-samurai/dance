@@ -1,0 +1,15 @@
+.service{
+    padding-top: 596px;
+    height: 1102px;
+    background: no-repeat center / cover url("/dist/src/img/bg_bike.jpg");
+    &__items{
+       
+        display: flex;
+        justify-content:space-around;
+    }
+    .descr{
+        margin-top: 77px;
+        width: 296px;
+        text-align: left;
+    }
+}

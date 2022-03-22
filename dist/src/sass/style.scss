@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1440px;
+}
+
+
+
+
+@import "blocks/nav";
+@import "blocks/subscriber";
+@import "blocks/btn";
+@import "blocks/title";
+@import "blocks/descr";
+@import "blocks/move";
+@import "blocks/ride";
+@import "blocks/built";
+@import "blocks/advantage";
+@import "blocks/phone";
+@import "blocks/service";
+@import "blocks/movement";

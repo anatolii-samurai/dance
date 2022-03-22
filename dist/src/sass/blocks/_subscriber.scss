@@ -1,0 +1,12 @@
+.subscribe{
+    min-height: 420px;
+    padding: 90px 0 80px 0;
+    text-align: center;
+    background:url(/dist/src/img/Rectangle.jpg) center center / cover no-repeat;
+    &__btn{
+        margin-top: 26px;
+    }
+    .descr{
+        color: #FBF7F3;
+    }
+}
